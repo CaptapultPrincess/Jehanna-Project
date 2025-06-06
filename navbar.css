@@ -1,6 +1,6 @@
   .navbar {
     overflow: hidden;
-    background-color: #5a3737;
+    background-color: #9f71ac9e;
   }
 
   .navbar a {
@@ -14,7 +14,7 @@
   }
 
   .navbar a:hover {
-    background: #cbbcbc;
+    background: #c597cf;
     color: rgb(0, 0, 0);
   }
   .navbar a.selected {

@@ -1,6 +1,8 @@
 
 <head>
   <title>Intro</title>
+  <link rel="stylesheet" href="navbar.css">
+
 </head>
 
 <body>
@@ -11,8 +13,14 @@
     <a href="pictures.html">Photos</a>
   </div>
   <div>
-    <h1>Intro Page</h1>
+    <h1 class="name">Jehanna Fisher</h1> 
+  </div>
+  <img class="home-img" src="https://png.pngtree.com/png-vector/20240604/ourmid/pngtree-black-princess-wearing-light-blue-dress-png-image_12624972.png">
+ 
+
+  <div class="box">
     <p>This is just a intro page to start with, later on I will add more to this page. I think I will just talk about myself here, or this can be the home page, but for now it is blank.<br><br> I can test formats here so lets see how it goes!</p>
+  
   </div>
 
 </body>
@@ -20,38 +28,32 @@
 
 <style>
     h1{
-      color:white
+      color:white;
+      /*background-color: #9f71ac9e;*/
+      padding:5px;
+      position: fixed
     }
     p{
       color:white
     }
-    .navbar {
-    overflow: hidden;
-    background-color: #5a3737;
-  }
     body {
     background-color: #000000;
     background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLXGH98APTQWtWb6w5t0RxO77dHRpXqCScnA&s');
     background-size:100%;
     color: rgb(0, 0, 0);
-  }
 
-  .navbar a {
-    float: right;
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 5px 16px;
-    text-decoration:none;
-    font-size: 17px;
   }
-
-  .navbar a:hover {
-    background: #cbbcbc;
-    color: rgb(0, 0, 0);
+  div{
+    display:block;
+    position: relative;
   }
-  .navbar a.selected {
-    color:black;
-    background-color:#ffffff
+  .home-img{
+    display: flex;
+    margin-left: auto;
+    position:relative
+  }
+  .box{
+    background-color: #9f71ac9e;
+    padding: 5px;
   }
 </style>
