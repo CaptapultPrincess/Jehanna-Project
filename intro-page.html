@@ -1,11 +1,57 @@
-##Just a test page
+
 <head>
   <title>Intro</title>
 </head>
 
 <body>
   <div class="navbar">
+    <a class="selected">Intro</a>
     <a href="index.html">Index</a>
-    <a href="intro-page.html">Intro</a>
     <a href="test-page.html">Test</a>
+    <a href="pictures.html">Photos</a>
   </div>
+  <div>
+    <h1>Intro Page</h1>
+    <p>This is just a intro page to start with, later on I will add more to this page. I think I will just talk about myself here, or this can be the home page, but for now it is blank.<br><br> I can test formats here so lets see how it goes!</p>
+  </div>
+
+</body>
+
+
+<style>
+    h1{
+      color:white
+    }
+    p{
+      color:white
+    }
+    .navbar {
+    overflow: hidden;
+    background-color: #5a3737;
+  }
+    body {
+    background-color: #000000;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLXGH98APTQWtWb6w5t0RxO77dHRpXqCScnA&s');
+    background-size:150%;
+    color: rgb(0, 0, 0);
+  }
+
+  .navbar a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration:none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background: #cbbcbc;
+    color: rgb(0, 0, 0);
+  }
+  .navbar a.selected {
+    color:black;
+    background-color:#ffffff
+  }
+</style>
